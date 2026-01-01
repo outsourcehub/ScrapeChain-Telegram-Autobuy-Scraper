@@ -1,73 +1,42 @@
-# Welcome to your Lovable project
+# Scrape Chain
 
-## Project info
+Open-source, self-hosted Telegram scraper for extracting contract addresses (CAs) from channels/groups and routing them instantly to bots like Blazing. Avoid shared infra delays—control your latency.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+**Pitch:** Self-host a scraper to get signals faster without bottlenecks.
 
-## How can I edit this code?
+## Why a Scraper?
 
-There are several ways of editing your application.
+Traders miss entries due to manual copy-paste or crowded scrapers. This automates detection: listens, extracts CAs, forwards reliably. No misses, dedups, or jitter. For users already on Telegram calls + bots who hate being late.
 
-**Use Lovable**
+## Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+- **Listening:** Monitors channels/groups for CAs.
+- **Extraction:** Instant parse, user filters (any sender).
+- **Routing:** Direct to Blazing (<1s exec).
+- **Chains:** SOL, BSC, ETH, BASE, ARB, STORY, MONAD, SONIC, AVAX, BERA.
+- **Safety:** Honeypot checks, dup prevention.
+- **Hosting:** Cloud deploy (24/7, no local PC needed).
+- **Community:** Vote on updates; serious users only.
 
-Changes made via Lovable will be committed automatically to this repo.
+Not a strategy, sniper, or signals—just infra.
 
-**Use your preferred IDE**
+## Setup
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+1. **Requirements:**
+   - GitHub account.
+   - Telegram: User ID, Bot Token, API ID/Hash (tutorial: [Watch Tutorial On YouTube Here](https://www.youtube.com/watch?v=WEh3kBNFgbk)).
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+2. **Access Repo:**
+   - DM @scrapechainbot on Telegram.
+   - Use /admin to send GitHub username (multiple msgs OK, bypasses limits).
+   - Complete referral (supports dev).
 
-Follow these steps:
+3. **Deploy:**
+   - Free cloud hosting tutorial: [Watch Tutorial On YouTube Here](https://www.youtube.com/watch?v=WLJ5uzwNRW4).
+   - Run on 24/7.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## Community
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Join via bot for updates, broadcasts. Feedback drives features—no bloat. Private repo keeps it serious; core open for trust.
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Questions? Use /admin in bot.
