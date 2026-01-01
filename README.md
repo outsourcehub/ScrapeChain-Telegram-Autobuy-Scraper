@@ -24,10 +24,10 @@ Not a strategy, sniper, or signals—just infra.
 
 1. **Requirements:**
    - GitHub account.
-   - Telegram: User ID, Bot Token, API ID/Hash (tutorial: [Watch Tutorial On YouTube Here](https://www.youtube.com/watch?v=WEh3kBNFgbk)).
+   - Telegram: User ID, Bot Token, API ID/Hash [Watch Tutorial On YouTube Here](https://www.youtube.com/watch?v=WEh3kBNFgbk).
 
 2. **Access Repo:**
-   - DM @scrapechainbot on Telegram.
+   - DM [@scrapechainbot](https://t.me/scrapechainbot) on Telegram.
    - Use /admin to send GitHub username (multiple msgs OK, bypasses limits).
    - Complete referral (supports dev).
 
